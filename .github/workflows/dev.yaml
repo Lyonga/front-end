@@ -16,6 +16,7 @@ jobs:
         days-before-stale: 120
         days-before-delete: 180 # set to 0 to disable deletion
         comment-updates: false
+        delete: true
         max-issues: 20
         tag-committer: false
         stale-branch-label: 'stale branch 🗑️'
