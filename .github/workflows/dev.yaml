@@ -12,7 +12,7 @@ jobs:
     - name: Stale Branches
       uses: crs-k/stale-branches@v2.0.1
       with:
-        repo-token: '${{ secrets.PAT}}'
+        repo-token: '${{ secrets.DEL_TOKEN}}'
         days-before-stale: 120
         days-before-delete: 180 # set to 0 to disable deletion
         comment-updates: false
