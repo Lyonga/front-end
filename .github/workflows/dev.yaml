@@ -3,7 +3,7 @@ name: Stale branches
 
 on:
   schedule:
-    - cron: '0 */2 * * *' 
+    #- cron: '0 */2 * * *' 
 
 jobs:
   stale_branches:
